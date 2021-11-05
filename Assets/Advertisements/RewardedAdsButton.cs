@@ -57,6 +57,9 @@ public class RewardedAdsButton : MonoBehaviour, IUnityAdsLoadListener, IUnityAds
         if (adUnitId.Equals(_adUnitId) && showCompletionState.Equals(UnityAdsShowCompletionState.COMPLETED))
         {
             Debug.Log("Unity Ads Rewarded Ad Completed");
+
+            PlayerPrefs.SetInt("moedas", PlayerPrefs.GetInt("moedas") + 25);
+            GameObject.Find("Moedas").GetComponent<Text>().text = "Você tem " + PlayerPrefs.GetInt("moedas").ToString() + " moedas";
             // Grant a reward.
 
             // Load another ad:

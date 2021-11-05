@@ -12695,7 +12695,7 @@ GameObject:
   - component: {fileID: 1257433148}
   - component: {fileID: 1257433147}
   m_Layer: 5
-  m_Name: 100 moedas
+  m_Name: 25 moedas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12754,7 +12754,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "100 Moedas instant\xE2neas"
+  m_Text: "25 Moedas instant\xE2neas"
 --- !u!222 &1257433148
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -21127,7 +21127,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _androidGameId: 4436905
   _iOsGameId: 4436904
-  _testMode: 1
+  _testMode: 0
   _enablePerPlacementMode: 1
 --- !u!1 &2122366882
 GameObject:
@@ -22984,7 +22984,7 @@ Canvas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6333077973773343845}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_RenderMode: 0
   m_Camera: {fileID: 0}

@@ -201,49 +201,55 @@ extern void X509Cert_ParseTime_m315E259C5A6097A60455BBBF417F8770C849DAC9 (void);
 extern void InvalidTimeFormat__ctor_m2EA54FD5CEBC3F2494069A8E58329417DBFD4FFA (void);
 // 0x0000005F System.Void UnityEngine.Purchasing.Security.InvalidX509Data::.ctor()
 extern void InvalidX509Data__ctor_m2839F4E60EEE2D3FD7F475847016E3D565817E6E (void);
-// 0x00000060 LipingShare.LCLib.Asn1Processor.Asn1Node UnityEngine.Purchasing.Security.PKCS7::get_data()
+// 0x00000060 System.Byte[] UnityEngine.Purchasing.Security.Obfuscator::DeObfuscate(System.Byte[],System.Int32[],System.Int32)
+extern void Obfuscator_DeObfuscate_m6F0A7E293FB46C77D7194E8A3076A3BF3231919C (void);
+// 0x00000061 System.Void UnityEngine.Purchasing.Security.Obfuscator/<>c__DisplayClass0_0::.ctor()
+extern void U3CU3Ec__DisplayClass0_0__ctor_mA2C0AFAD1DD30D9733DFEC4A39B87A13EE6B4CBD (void);
+// 0x00000062 System.Byte UnityEngine.Purchasing.Security.Obfuscator/<>c__DisplayClass0_0::<DeObfuscate>b__0(System.Byte)
+extern void U3CU3Ec__DisplayClass0_0_U3CDeObfuscateU3Eb__0_m804D14F1D4112F37868D9D60029B93FF96261A98 (void);
+// 0x00000063 LipingShare.LCLib.Asn1Processor.Asn1Node UnityEngine.Purchasing.Security.PKCS7::get_data()
 extern void PKCS7_get_data_m6D8A2F87A739A82DD799A4221D0694378AE72766 (void);
-// 0x00000061 System.Void UnityEngine.Purchasing.Security.PKCS7::set_data(LipingShare.LCLib.Asn1Processor.Asn1Node)
+// 0x00000064 System.Void UnityEngine.Purchasing.Security.PKCS7::set_data(LipingShare.LCLib.Asn1Processor.Asn1Node)
 extern void PKCS7_set_data_m1BCC45AFBD0BC0E7F7A108C65F1FC8DC42A57489 (void);
-// 0x00000062 System.Collections.Generic.List`1<UnityEngine.Purchasing.Security.SignerInfo> UnityEngine.Purchasing.Security.PKCS7::get_sinfos()
+// 0x00000065 System.Collections.Generic.List`1<UnityEngine.Purchasing.Security.SignerInfo> UnityEngine.Purchasing.Security.PKCS7::get_sinfos()
 extern void PKCS7_get_sinfos_mC974631B995F6B9AC43EFD1E5B02F8EE112F278F (void);
-// 0x00000063 System.Void UnityEngine.Purchasing.Security.PKCS7::set_sinfos(System.Collections.Generic.List`1<UnityEngine.Purchasing.Security.SignerInfo>)
+// 0x00000066 System.Void UnityEngine.Purchasing.Security.PKCS7::set_sinfos(System.Collections.Generic.List`1<UnityEngine.Purchasing.Security.SignerInfo>)
 extern void PKCS7_set_sinfos_mE2B572994330BFEF8B073BCD8D6C1EC384DC2BC7 (void);
-// 0x00000064 System.Collections.Generic.List`1<UnityEngine.Purchasing.Security.X509Cert> UnityEngine.Purchasing.Security.PKCS7::get_certChain()
+// 0x00000067 System.Collections.Generic.List`1<UnityEngine.Purchasing.Security.X509Cert> UnityEngine.Purchasing.Security.PKCS7::get_certChain()
 extern void PKCS7_get_certChain_m00B476DB0047B4C9991F5B435BFACD1124394373 (void);
-// 0x00000065 System.Void UnityEngine.Purchasing.Security.PKCS7::set_certChain(System.Collections.Generic.List`1<UnityEngine.Purchasing.Security.X509Cert>)
+// 0x00000068 System.Void UnityEngine.Purchasing.Security.PKCS7::set_certChain(System.Collections.Generic.List`1<UnityEngine.Purchasing.Security.X509Cert>)
 extern void PKCS7_set_certChain_m3393852EBF6A9ACF57D248CD5CD96E7170DA9257 (void);
-// 0x00000066 System.Void UnityEngine.Purchasing.Security.PKCS7::.ctor(LipingShare.LCLib.Asn1Processor.Asn1Node)
+// 0x00000069 System.Void UnityEngine.Purchasing.Security.PKCS7::.ctor(LipingShare.LCLib.Asn1Processor.Asn1Node)
 extern void PKCS7__ctor_mC23976D15A67FB5C3C7CCDC937F9F6800E0CC3E5 (void);
-// 0x00000067 System.Void UnityEngine.Purchasing.Security.PKCS7::CheckStructure()
+// 0x0000006A System.Void UnityEngine.Purchasing.Security.PKCS7::CheckStructure()
 extern void PKCS7_CheckStructure_m0FA3932F2DD12D410FE33EBB0CCBA3E33F6A4058 (void);
-// 0x00000068 System.Int32 UnityEngine.Purchasing.Security.SignerInfo::get_Version()
+// 0x0000006B System.Int32 UnityEngine.Purchasing.Security.SignerInfo::get_Version()
 extern void SignerInfo_get_Version_m7967FD171D0CD045416CF0CD8EE86F880B5AFDA1 (void);
-// 0x00000069 System.Void UnityEngine.Purchasing.Security.SignerInfo::set_Version(System.Int32)
+// 0x0000006C System.Void UnityEngine.Purchasing.Security.SignerInfo::set_Version(System.Int32)
 extern void SignerInfo_set_Version_m096A7A01379DBFE817CB261272AE462789B619CF (void);
-// 0x0000006A System.Void UnityEngine.Purchasing.Security.SignerInfo::set_IssuerSerialNumber(System.String)
+// 0x0000006D System.Void UnityEngine.Purchasing.Security.SignerInfo::set_IssuerSerialNumber(System.String)
 extern void SignerInfo_set_IssuerSerialNumber_mCF2536D75E277F4AF7311E105A586BC8087BC8E2 (void);
-// 0x0000006B System.Void UnityEngine.Purchasing.Security.SignerInfo::set_EncryptedDigest(System.Byte[])
+// 0x0000006E System.Void UnityEngine.Purchasing.Security.SignerInfo::set_EncryptedDigest(System.Byte[])
 extern void SignerInfo_set_EncryptedDigest_mBF05E641B22261C4D7A5DAE5F5FCD59BBDA1505B (void);
-// 0x0000006C System.Void UnityEngine.Purchasing.Security.SignerInfo::.ctor(LipingShare.LCLib.Asn1Processor.Asn1Node)
+// 0x0000006F System.Void UnityEngine.Purchasing.Security.SignerInfo::.ctor(LipingShare.LCLib.Asn1Processor.Asn1Node)
 extern void SignerInfo__ctor_m72709002226CFABC20C966E638B68760B7E668A9 (void);
-// 0x0000006D System.Void UnityEngine.Purchasing.Security.InvalidPKCS7Data::.ctor()
+// 0x00000070 System.Void UnityEngine.Purchasing.Security.InvalidPKCS7Data::.ctor()
 extern void InvalidPKCS7Data__ctor_m66ACFC92796EBF6BFAE5915CD3F70F1BB9D27FC1 (void);
-// 0x0000006E System.Void UnityEngine.Purchasing.Security.UnsupportedSignerInfoVersion::.ctor()
+// 0x00000071 System.Void UnityEngine.Purchasing.Security.UnsupportedSignerInfoVersion::.ctor()
 extern void UnsupportedSignerInfoVersion__ctor_m2A525C80CA9AB2BE9F9869A020D54A0A11AA1542 (void);
-// 0x0000006F System.Void UnityEngine.Purchasing.Security.RSAKey::set_rsa(System.Security.Cryptography.RSACryptoServiceProvider)
+// 0x00000072 System.Void UnityEngine.Purchasing.Security.RSAKey::set_rsa(System.Security.Cryptography.RSACryptoServiceProvider)
 extern void RSAKey_set_rsa_m5B74E411FA4685E4484F1EEF973E02F1F008A4F5 (void);
-// 0x00000070 System.Void UnityEngine.Purchasing.Security.RSAKey::.ctor(LipingShare.LCLib.Asn1Processor.Asn1Node)
+// 0x00000073 System.Void UnityEngine.Purchasing.Security.RSAKey::.ctor(LipingShare.LCLib.Asn1Processor.Asn1Node)
 extern void RSAKey__ctor_m122BCC496985281C78CCD0A223792580C27D4F6F (void);
-// 0x00000071 System.Security.Cryptography.RSACryptoServiceProvider UnityEngine.Purchasing.Security.RSAKey::ParseNode(LipingShare.LCLib.Asn1Processor.Asn1Node)
+// 0x00000074 System.Security.Cryptography.RSACryptoServiceProvider UnityEngine.Purchasing.Security.RSAKey::ParseNode(LipingShare.LCLib.Asn1Processor.Asn1Node)
 extern void RSAKey_ParseNode_mC39A2AC4AC93CD5E30783858DE40667A8CE74D77 (void);
-// 0x00000072 System.String UnityEngine.Purchasing.Security.RSAKey::ToXML(System.String,System.String)
+// 0x00000075 System.String UnityEngine.Purchasing.Security.RSAKey::ToXML(System.String,System.String)
 extern void RSAKey_ToXML_m189C5328EE031465F2BFF117F6AE5E4BBB39C022 (void);
-// 0x00000073 System.Void UnityEngine.Purchasing.Security.InvalidRSAData::.ctor()
+// 0x00000076 System.Void UnityEngine.Purchasing.Security.InvalidRSAData::.ctor()
 extern void InvalidRSAData__ctor_m7FD4D1595A630A2C0D68DF36C9E9E383262C056C (void);
-// 0x00000074 System.UInt32 <PrivateImplementationDetails>::ComputeStringHash(System.String)
+// 0x00000077 System.UInt32 <PrivateImplementationDetails>::ComputeStringHash(System.String)
 extern void U3CPrivateImplementationDetailsU3E_ComputeStringHash_mF5324EA33B0E55B4570D0EF8DA5A0FCB25E6ECA4 (void);
-static Il2CppMethodPointer s_methodPointers[116] = 
+static Il2CppMethodPointer s_methodPointers[119] = 
 {
 	Asn1Node__ctor_m94082F24B4B34958EAC6DC936D16B324589758BC,
 	Asn1Node_Init_m14DA7F09F96054644EFFE7DF908FBFEC08DB1297,
@@ -340,6 +346,9 @@ static Il2CppMethodPointer s_methodPointers[116] =
 	X509Cert_ParseTime_m315E259C5A6097A60455BBBF417F8770C849DAC9,
 	InvalidTimeFormat__ctor_m2EA54FD5CEBC3F2494069A8E58329417DBFD4FFA,
 	InvalidX509Data__ctor_m2839F4E60EEE2D3FD7F475847016E3D565817E6E,
+	Obfuscator_DeObfuscate_m6F0A7E293FB46C77D7194E8A3076A3BF3231919C,
+	U3CU3Ec__DisplayClass0_0__ctor_mA2C0AFAD1DD30D9733DFEC4A39B87A13EE6B4CBD,
+	U3CU3Ec__DisplayClass0_0_U3CDeObfuscateU3Eb__0_m804D14F1D4112F37868D9D60029B93FF96261A98,
 	PKCS7_get_data_m6D8A2F87A739A82DD799A4221D0694378AE72766,
 	PKCS7_set_data_m1BCC45AFBD0BC0E7F7A108C65F1FC8DC42A57489,
 	PKCS7_get_sinfos_mC974631B995F6B9AC43EFD1E5B02F8EE112F278F,
@@ -362,124 +371,127 @@ static Il2CppMethodPointer s_methodPointers[116] =
 	InvalidRSAData__ctor_m7FD4D1595A630A2C0D68DF36C9E9E383262C056C,
 	U3CPrivateImplementationDetailsU3E_ComputeStringHash_mF5324EA33B0E55B4570D0EF8DA5A0FCB25E6ECA4,
 };
-static const int32_t s_InvokerIndices[116] = 
+static const int32_t s_InvokerIndices[119] = 
 {
 	720,
-	1295,
+	1296,
 	235,
 	228,
 	228,
-	1295,
-	1282,
-	1282,
+	1296,
+	1283,
+	1283,
 	973,
 	973,
-	1295,
+	1296,
 	1099,
-	1251,
+	1252,
 	882,
-	1261,
-	1261,
+	1262,
+	1262,
 	558,
 	886,
-	1251,
-	1261,
-	1251,
+	1252,
+	1262,
+	1252,
 	1118,
-	1295,
-	2060,
-	2147,
+	1296,
+	2061,
+	2148,
 	720,
 	558,
 	885,
 	973,
 	973,
 	973,
-	1295,
+	1296,
 	1099,
-	1261,
-	2083,
-	1261,
-	1872,
-	1680,
-	1864,
-	2060,
-	2086,
-	2086,
-	2047,
-	1838,
-	1846,
-	2091,
-	2182,
+	1262,
+	2084,
+	1262,
+	1873,
+	1681,
+	1865,
+	2061,
+	2087,
+	2087,
+	2048,
+	1839,
+	1847,
+	2092,
+	2183,
 	885,
 	885,
 	885,
-	1295,
+	1296,
 	521,
-	1295,
+	1296,
 	885,
 	885,
 	557,
-	2170,
-	2147,
+	2171,
+	2148,
 	885,
 	885,
-	2011,
+	2012,
 	-1,
-	1295,
-	2182,
-	1261,
+	1296,
+	2183,
+	1262,
 	1099,
-	1261,
+	1262,
 	1099,
-	1261,
+	1262,
 	1099,
-	1261,
+	1262,
 	1099,
-	1261,
+	1262,
 	1099,
-	1261,
+	1262,
 	1099,
 	1099,
 	1099,
 	973,
-	1261,
+	1262,
 	1099,
 	1080,
 	1080,
 	1099,
 	1118,
-	1261,
+	1262,
 	1099,
-	1261,
+	1262,
 	1099,
 	1099,
 	1099,
 	1099,
 	786,
-	1295,
-	1295,
-	1261,
+	1296,
+	1296,
+	1686,
+	1296,
+	988,
+	1262,
 	1099,
-	1261,
+	1262,
 	1099,
-	1261,
+	1262,
 	1099,
 	1099,
-	1295,
-	1250,
+	1296,
+	1251,
 	1090,
 	1099,
 	1099,
 	1099,
-	1295,
-	1295,
+	1296,
+	1296,
 	1099,
 	1099,
 	885,
 	559,
-	1295,
-	2050,
+	1296,
+	2051,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[1] = 
 {
@@ -488,15 +500,15 @@ static const Il2CppTokenRangePair s_rgctxIndices[1] =
 static const Il2CppRGCTXDefinition s_rgctxValues[3] = 
 {
 	{ (Il2CppRGCTXDataType)2, 28 },
-	{ (Il2CppRGCTXDataType)2, 1411 },
-	{ (Il2CppRGCTXDataType)3, 3057 },
+	{ (Il2CppRGCTXDataType)2, 1425 },
+	{ (Il2CppRGCTXDataType)3, 3134 },
 };
 extern const CustomAttributesCacheGenerator g_UnityEngine_Purchasing_Security_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_Purchasing_Security_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_Purchasing_Security_CodeGenModule = 
 {
 	"UnityEngine.Purchasing.Security.dll",
-	116,
+	119,
 	s_methodPointers,
 	0,
 	NULL,

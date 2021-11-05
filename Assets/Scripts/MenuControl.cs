@@ -30,7 +30,7 @@ public class MenuControl : MonoBehaviour
             GameObject.Find("Som").GetComponent<MenuOption>().on = true;
         }
 
-        GameObject.Find("Moedas").GetComponent<Text>().text = "Você tem " + PlayerPrefs.GetInt("moedas").ToString() + " moeda";
+        GameObject.Find("Moedas").GetComponent<Text>().text = "Você tem " + PlayerPrefs.GetInt("moedas").ToString() + " moedas";
         if (PlayerPrefs.GetInt("moedas") != 1)
         {
             GameObject.Find("Moedas").GetComponent<Text>().text += "s";
